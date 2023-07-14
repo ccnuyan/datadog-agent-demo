@@ -18,5 +18,6 @@ dd_trace.trace("test-trace", () => {
     throw new Error("Error Message");
   } catch (e) {
     logger.error(e, "error desc");
+    logger.error("error desc", e);
   }
 });
