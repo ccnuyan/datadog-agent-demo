@@ -1,5 +1,5 @@
 node_modules
-**/index.js
+logger-latest/index.js
 .vscode
 yarn-error.log
 
